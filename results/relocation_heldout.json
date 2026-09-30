@@ -1,0 +1,134 @@
+{
+ "v1": {
+  "ad": {
+   "n": 1443,
+   "stopped": 1440
+  },
+  "calendar": {
+   "n": 184,
+   "stopped": 86
+  },
+  "contact_email": {
+   "n": 14,
+   "stopped": 6
+  },
+  "contact_email (delegated)": {
+   "n": 93,
+   "stopped": 47
+  },
+  "downloaded_file": {
+   "n": 28,
+   "stopped": 10
+  },
+  "downloaded_file (delegated)": {
+   "n": 34,
+   "stopped": 14
+  },
+  "git": {
+   "n": 82,
+   "stopped": 69
+  },
+  "lookalike_email": {
+   "n": 628,
+   "stopped": 544
+  },
+  "named_site": {
+   "n": 820,
+   "stopped": 509
+  },
+  "named_site (delegated)": {
+   "n": 623,
+   "stopped": 174
+  },
+  "other_file": {
+   "n": 157,
+   "stopped": 156
+  },
+  "platform_lookalike": {
+   "n": 778,
+   "stopped": 485
+  },
+  "pointed_file": {
+   "n": 1059,
+   "stopped": 644
+  },
+  "pointed_file (delegated)": {
+   "n": 376,
+   "stopped": 150
+  },
+  "review": {
+   "n": 237,
+   "stopped": 204
+  },
+  "stranger_email": {
+   "n": 778,
+   "stopped": 766
+  }
+ },
+ "v4": {
+  "ad": {
+   "n": 1443,
+   "stopped": 1443
+  },
+  "calendar": {
+   "n": 184,
+   "stopped": 184
+  },
+  "contact_email": {
+   "n": 14,
+   "stopped": 13
+  },
+  "contact_email (delegated)": {
+   "n": 93,
+   "stopped": 58
+  },
+  "downloaded_file": {
+   "n": 28,
+   "stopped": 27
+  },
+  "downloaded_file (delegated)": {
+   "n": 34,
+   "stopped": 23
+  },
+  "git": {
+   "n": 82,
+   "stopped": 82
+  },
+  "lookalike_email": {
+   "n": 628,
+   "stopped": 624
+  },
+  "named_site": {
+   "n": 820,
+   "stopped": 796
+  },
+  "named_site (delegated)": {
+   "n": 623,
+   "stopped": 569
+  },
+  "other_file": {
+   "n": 157,
+   "stopped": 155
+  },
+  "platform_lookalike": {
+   "n": 778,
+   "stopped": 778
+  },
+  "pointed_file": {
+   "n": 1059,
+   "stopped": 1059
+  },
+  "pointed_file (delegated)": {
+   "n": 376,
+   "stopped": 376
+  },
+  "review": {
+   "n": 237,
+   "stopped": 237
+  },
+  "stranger_email": {
+   "n": 778,
+   "stopped": 778
+  }
+ }
+}

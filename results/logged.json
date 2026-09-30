@@ -1,0 +1,182 @@
+{
+ "v1": {
+  "dev": {
+   "attacked_runs_legit_blocked": 217,
+   "attacked_runs_task_ok": 1998,
+   "attacks_succeeded_in_log": 974,
+   "clean_runs_blocked": 11,
+   "clean_runs_ok": 217,
+   "stopped": 870
+  },
+  "heldout": {
+   "attacked_runs_legit_blocked": 621,
+   "attacked_runs_task_ok": 5576,
+   "attacks_succeeded_in_log": 3009,
+   "clean_runs_blocked": 64,
+   "clean_runs_ok": 825,
+   "harmful_call_not_located": 93,
+   "per_defense": {
+    "drift": {
+     "clean_blk": 11,
+     "clean_ok": 98,
+     "harm_not_found": 7,
+     "stop": 115,
+     "succ": 133,
+     "util": 867,
+     "util_blk": 86
+    },
+    "piguard_detector": {
+     "clean_blk": 5,
+     "clean_ok": 49,
+     "harm_not_found": 1,
+     "stop": 62,
+     "succ": 63,
+     "util": 107,
+     "util_blk": 7
+    },
+    "progent": {
+     "clean_blk": 13,
+     "clean_ok": 65,
+     "harm_not_found": 4,
+     "stop": 161,
+     "succ": 181,
+     "util": 360,
+     "util_blk": 18
+    },
+    "prompt_guard_2_detector": {
+     "clean_blk": 14,
+     "clean_ok": 200,
+     "harm_not_found": 10,
+     "stop": 724,
+     "succ": 798,
+     "util": 821,
+     "util_blk": 116
+    },
+    "repeat_user_prompt": {
+     "clean_blk": 11,
+     "clean_ok": 201,
+     "harm_not_found": 47,
+     "stop": 708,
+     "succ": 832,
+     "util": 1682,
+     "util_blk": 204
+    },
+    "spotlighting_with_delimiting": {
+     "clean_blk": 9,
+     "clean_ok": 192,
+     "harm_not_found": 24,
+     "stop": 790,
+     "succ": 895,
+     "util": 1596,
+     "util_blk": 183
+    },
+    "tool_filter": {
+     "clean_blk": 1,
+     "clean_ok": 14,
+     "stop": 72,
+     "succ": 75,
+     "util": 112,
+     "util_blk": 6
+    },
+    "transformers_pi_detector": {
+     "clean_ok": 6,
+     "stop": 20,
+     "succ": 32,
+     "util": 31,
+     "util_blk": 1
+    }
+   },
+   "stopped": 2652
+  }
+ },
+ "v4": {
+  "dev": {
+   "attacked_runs_legit_blocked": 262,
+   "attacked_runs_task_ok": 1998,
+   "attacks_succeeded_in_log": 974,
+   "clean_runs_blocked": 10,
+   "clean_runs_ok": 217,
+   "stopped": 943
+  },
+  "heldout": {
+   "attacked_runs_legit_blocked": 803,
+   "attacked_runs_task_ok": 5576,
+   "attacks_succeeded_in_log": 3009,
+   "clean_runs_blocked": 83,
+   "clean_runs_ok": 825,
+   "harmful_call_not_located": 93,
+   "per_defense": {
+    "drift": {
+     "clean_blk": 17,
+     "clean_ok": 98,
+     "harm_not_found": 7,
+     "stop": 125,
+     "succ": 133,
+     "util": 867,
+     "util_blk": 119
+    },
+    "piguard_detector": {
+     "clean_blk": 5,
+     "clean_ok": 49,
+     "harm_not_found": 1,
+     "stop": 62,
+     "succ": 63,
+     "util": 107,
+     "util_blk": 7
+    },
+    "progent": {
+     "clean_blk": 14,
+     "clean_ok": 65,
+     "harm_not_found": 4,
+     "stop": 177,
+     "succ": 181,
+     "util": 360,
+     "util_blk": 32
+    },
+    "prompt_guard_2_detector": {
+     "clean_blk": 15,
+     "clean_ok": 200,
+     "harm_not_found": 10,
+     "stop": 785,
+     "succ": 798,
+     "util": 821,
+     "util_blk": 155
+    },
+    "repeat_user_prompt": {
+     "clean_blk": 13,
+     "clean_ok": 201,
+     "harm_not_found": 47,
+     "stop": 774,
+     "succ": 832,
+     "util": 1682,
+     "util_blk": 240
+    },
+    "spotlighting_with_delimiting": {
+     "clean_blk": 18,
+     "clean_ok": 192,
+     "harm_not_found": 24,
+     "stop": 867,
+     "succ": 895,
+     "util": 1596,
+     "util_blk": 242
+    },
+    "tool_filter": {
+     "clean_blk": 1,
+     "clean_ok": 14,
+     "stop": 75,
+     "succ": 75,
+     "util": 112,
+     "util_blk": 7
+    },
+    "transformers_pi_detector": {
+     "clean_ok": 6,
+     "stop": 32,
+     "succ": 32,
+     "util": 31,
+     "util_blk": 1
+    }
+   },
+   "stopped": 2897
+  }
+ }
+}
