@@ -118,6 +118,8 @@ The gates are deterministic, rule-based tool-call firewalls. They decide each to
 - Adaptive attacks against defenses: [arXiv 2606.26479](https://arxiv.org/abs/2606.26479).
 - How models respond to source authority: [arXiv 2607.20827](https://arxiv.org/abs/2607.20827), [arXiv 2607.25987](https://arxiv.org/abs/2607.25987). These test models, not rule-based gates.
 
+-Adaptive attacks from the AgentDyn authors' lab: [AutoDojo, arXiv 2606.15057](https://arxiv.org/abs/2606.15057) optimizes the injected text and finds defenses struggle on "action-open" tasks that delegate the action to attacker-controlled content, consistent with the delegated-channel result here. This repository instead keeps the text fixed and varies where it is placed.
+
 I'm not aware of prior work that relocates *logged* attacks across channels to test gates this way. If you know of some, please open an issue. Corrections and criticism are very welcome.
 
 ## Credits
