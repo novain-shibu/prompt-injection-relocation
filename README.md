@@ -118,7 +118,9 @@ The gates are deterministic, rule-based tool-call firewalls. They decide each to
 - Adaptive attacks against defenses: [arXiv 2606.26479](https://arxiv.org/abs/2606.26479).
 - How models respond to source authority: [arXiv 2607.20827](https://arxiv.org/abs/2607.20827), [arXiv 2607.25987](https://arxiv.org/abs/2607.25987). These test models, not rule-based gates.
 
--Adaptive attacks from the AgentDyn authors' lab: [AutoDojo, arXiv 2606.15057](https://arxiv.org/abs/2606.15057) optimizes the injected text and finds defenses struggle on "action-open" tasks that delegate the action to attacker-controlled content, consistent with the delegated-channel result here. This repository instead keeps the text fixed and varies where it is placed.
+- Adaptive attacks from the AgentDyn authors' lab: [AutoDojo, arXiv 2606.15057](https://arxiv.org/abs/2606.15057) optimizes the injected text and finds defenses struggle on "action-open" tasks that delegate the action to attacker-controlled content, consistent with the delegated-channel result here. This repository instead keeps the text fixed and varies where it is placed.
+
+- Closest defenses to the gate studied here (deterministic, provenance or origin based): [ROPE, arXiv 2608.27496](https://arxiv.org/abs/2608.27496) enforces that a value reaches a state-changing tool only if it traces to the user, a source the user named, or the user's own records, and reports live results on AgentDyn and AgentDojo including AutoDojo adaptive attacks; [Agent-Sentry, arXiv 2603.22868](https://arxiv.org/abs/2603.22868) bounds agents via execution provenance. I have not run the relocation test against either.
 
 I'm not aware of prior work that relocates *logged* attacks across channels to test gates this way. If you know of some, please open an issue. Corrections and criticism are very welcome.
 
