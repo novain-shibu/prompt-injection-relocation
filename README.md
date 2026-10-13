@@ -95,6 +95,8 @@ Note that v4 wrongly blocks about twice as many normal runs on held-out data (10
 
 Needs Python 3.10+ and about 5 minutes. Offline: no model is called.
 
+> **⚠️ Run this in a sandbox.** AgentDyn's saved runs contain real prompt-injection text written to hijack AI agents, and some scripts may copy parts of it into local output files. Use a container, a virtual machine or a cloud notebook such as Kaggle, not your everyday machine. Don't let an AI coding assistant or agent read the `AgentDyn/` folder or the outputs, since it may follow the attack text as instructions. This repository itself contains only code and summary numbers, no attack text.
+
 ```bash
 git clone https://github.com/novain-shibu/prompt-injection-relocation.git && cd prompt-injection-relocation
 git clone https://github.com/leolee99/AgentDyn.git   # saved runs used: commit 5353cf76 (19 May 2026)
